@@ -1,14 +1,119 @@
+html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+#root {
+  height: 100%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3em;
+  color: white;
+}
+
+p {
+  margin: 10px 50px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.section {
+  width: 100%;
+}
+
+.content-section {
+  padding: 15px;
+}
+input {
+  box-sizing: border-box;
+  margin: 10px 0;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.login {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(42, 89, 219);
+  border-color: black;
+  color: white;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: rgb(85, 122, 221);
+  color: black;
+}
+
+.login-form {
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.navbar {
+  width: 200px;
+  background-color: #233470;
+  padding-top: 50px;
+  border-right: 1px solid grey;
+}
+
+.header-bar {
+  background-color: #233470;
+  height: 5%;
+  width: 100%;
+  min-height: 50px;
+}
+
+.navbar a {
+  display: flex;
+  padding: 10px;
+}
+
+.add-tweet {
+  background-color: #233470;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 30%;
+}
+
+.add-tweet-button {
+  margin-left: 25%;
+}
+
+.tweet-btn {
+  position: absolute;
+}
+.add-tweet-wrapper {
+  display: flex;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.add-tweet-wrapper div.tweet-name-input {
+  width: 300px;
+  height: 50px;
 }
